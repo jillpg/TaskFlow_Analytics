@@ -4,6 +4,9 @@
 > **Objective**: Analyze MRR stagnation, identify Churn drivers, and optimize the Free-to-Paid funnel.
 > **Tools**: Python (Faker), Docker, PostgreSQL, Power BI (DAX).
 
+[![Watch the Demo](https://img.shields.io/badge/Watch-Video_Demo-red?style=for-the-badge&logo=youtube)](LINK_TO_YOUR_PROJECT_VIDEO_HERE)
+*👆 Click to watch the 2-minute project walkthrough.*
+
 ---
 
 ## 📝 Executive Summary
@@ -26,15 +29,15 @@ TaskFlow, a B2B Project Management SaaS, has experienced flat MRR growth despite
 *Visual proof of the engineered data pipeline.*
 
 ### 1. Executive Overview (The Pulse)
-![Executive Overview](powerBi/screenshots/Executive%20Overview.png)
+![Executive Overview](powerBi/screenshots/Executive_Overview.png)
 *High-level KPIs showing MRR, Active Subs, and the calculated Churn Rate.*
 
 ### 2. Growth & Acquisition
-![Growth Engine](powerBi/screenshots/Growth%20Engine.png)
+![Growth Engine](powerBi/screenshots/Growth_Engine.png)
 *Funnel analysis and geo-spatial risk assessment (spotting the Brazil issue).*
 
 ### 3. Financial Performance
-![Financials](powerBi/screenshots/Finacials.png)
+![Financials](powerBi/screenshots/Financials.png)
 *Realized vs Predicted LTV comparison and ARPU evolution.*
 
 ### 4. Retention & Cohorts
@@ -42,7 +45,7 @@ TaskFlow, a B2B Project Management SaaS, has experienced flat MRR growth despite
 *Cohort Heatmap proving 12-month retention patterns and the 'March Incident'.*
 
 ### 5. Data Model (Star Schema)
-![Data Model](powerBi/screenshots/Model%20View.png)
+![Data Model](powerBi/screenshots/Model_View.png)
 *Professional Star Schema design with dedicated Measure Table.*
 
 ---
