@@ -1,7 +1,7 @@
 # 📊 TaskFlow Analytics - SaaS Product Intelligence
 
-> **Role Simulation**: Head of Product Analytics @ TaskFlow (B2B SaaS)
-> **Objective**: Analyze MRR stagnation, identify Churn drivers, and optimize the Free-to-Paid funnel.
+> **Role Simulation**: Head of Product Analytics @ TaskFlow (B2B SaaS) \
+> **Objective**: Analyze MRR stagnation, identify Churn drivers, and optimize the Free-to-Paid funnel. \
 > **Tools**: Python (Faker), Docker, PostgreSQL, Power BI (DAX).
 
 [![Watch the Demo](https://img.shields.io/badge/Watch-Video_Demo-red?style=for-the-badge&logo=youtube)](LINK_TO_YOUR_PROJECT_VIDEO_HERE)
