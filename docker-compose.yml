@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: taskflow_postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: taskflow_db
+    ports:
+      - "5432:5432"
+    volumes:
+      # Mount data for import
+      - ./data_gen/output_data:/data
+      # Mount initialization script
+      - ./sql/init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
