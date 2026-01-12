@@ -11,19 +11,17 @@
 
 ## 📝 Executive Summary
 
-TaskFlow, a B2B Project Management SaaS, has experienced flat MRR growth despite increasing traffic. This end-to-end data project was initiated to diagnose the root causes.
+**Key Findings (Visible in Dashboard):**
 
-**Key Findings:**
-
-1. **Retention Crisis (March)**: A server outage in March caused a massive churn spike (12% vs 4% baseline), impacting Q2 revenue.
-2. **Localization Failure**: The Brazilian market (BR) shows **2x higher churn** than US/EU, suggesting pricing or translation failures.
-3. **Referral Goldmine**: Users acquired via "Referral" have a **$450 LTV** (vs $200 Organic). This is an under-utilized growth lever.
+* **Strong Financial Health:** Current MRR is **$75.13K** (+8.1% MoM) with an excellent Monthly Churn Rate of **0.77%**.
+* **The "Brazil Anomaly":** While Brazil is a top revenue driver, it suffers from a **1.61% Churn Rate** (3x higher than the US), indicating a pricing or localization misalignment.
+* **Retained Revenue Gap:** There is a significant divergence between **Predicted LTV ($231)** and **Realized LTV ($92)**, sindicating that recent cohorts have not yet had sufficient time to mature. This is a common phenomenon in young companies where long-term value realization trails behind predictive modeling.
 
 **Strategic Recommendations:**
 
-* 🚀 **Launch "Referral 2.0"**: Incentivize user invites to double the high-LTV segment.
-* 🇧🇷 **Fix Brazil**: Audit payment gateways and Portuguese translation immediately.
-* 🛡️ **Win-back Campaign**: Target the "March Victims" with a discount offer.
+1. **Stabilize the "Month 2 Cliff":** Data shows the highest customer drop-off occurs in the second month. Focusing Customer Success efforts on the Day 30-60 window could significantly improve LTV.
+2. **Localize for LATAM:** Implementing PPP (Purchasing Power Parity) pricing for the Brazilian market could reduce the 1.61% churn rate and unlock sustainable growth in that region.
+3. **Pro-Tier Retention:** While 70% of lost users are "Free", **25% are "Pro" users**. Reducing this specific churn segment yields the highest ROI.
 
 ---
 

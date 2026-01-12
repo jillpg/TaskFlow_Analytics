@@ -16,16 +16,16 @@ SELECT
         WHEN s.status = 'Churned' AND s.end_date IS NOT NULL 
         THEN (EXTRACT(YEAR FROM age(s.end_date, s.start_date)) * 12 + 
               EXTRACT(MONTH FROM age(s.end_date, s.start_date)))
-        ELSE (EXTRACT(YEAR FROM age('2025-12-31', s.start_date)) * 12 + 
-              EXTRACT(MONTH FROM age('2025-12-31', s.start_date)))
+        ELSE (EXTRACT(YEAR FROM age(CURRENT_DATE, s.start_date)) * 12 + 
+              EXTRACT(MONTH FROM age(CURRENT_DATE, s.start_date)))
     END AS tenure_months,
     
     (CASE 
         WHEN s.status = 'Churned' AND s.end_date IS NOT NULL 
         THEN (EXTRACT(YEAR FROM age(s.end_date, s.start_date)) * 12 + 
               EXTRACT(MONTH FROM age(s.end_date, s.start_date)))
-        ELSE (EXTRACT(YEAR FROM age('2025-12-31', s.start_date)) * 12 + 
-              EXTRACT(MONTH FROM age('2025-12-31', s.start_date)))
+        ELSE (EXTRACT(YEAR FROM age(CURRENT_DATE, s.start_date)) * 12 + 
+              EXTRACT(MONTH FROM age(CURRENT_DATE, s.start_date)))
     END * s.amount) AS estimated_ltv
     
 FROM users u
