@@ -64,8 +64,14 @@ This project simulates a complete Data Engineering & Analytics pipeline:
 
 ```mermaid
 graph LR
-    A[Python / Faker] -->|Generate Raw Data| B(PostgreSQL / Docker)
-    B -->|SQL Transformation| C(Analytics Views)
+    A[Python / Faker] -->|Generate Raw Data| B
+
+    subgraph Docker Container
+        B[(PostgreSQL)]
+        C(Analytics Views)
+        B -->|SQL Transformation| C
+    end
+
     C -->|Import Mode| D[Power BI Dashboard]
 ```
 
