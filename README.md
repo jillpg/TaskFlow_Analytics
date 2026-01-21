@@ -134,3 +134,7 @@ TaskFlow_Analytics/
 ├── TaskFlow_Dashboard.pbix # The final Power BI file
 └── docker-compose.yml     # Infrastructure code
 ```
+
+## 👨‍💻 Author
+**Jill Palma Garro**
+> *"Unexplained churn is not just a statistic, it is a silent leak in your company's valuation."*
