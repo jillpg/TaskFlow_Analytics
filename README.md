@@ -1,11 +1,29 @@
 # 📊 TaskFlow Analytics - SaaS Product Intelligence
 
+**End-to-end data analytics pipeline analyzing MRR, churn, and long-term retention for a SaaS product.**
+
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
+[![PostgreSQL 15](https://img.shields.io/badge/postgresql-15-336791.svg)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/docker-latest-2496ED.svg)](https://www.docker.com/)
+[![Power BI](https://img.shields.io/badge/power_bi-desktop-F2C811.svg)](https://powerbi.microsoft.com/)
+[![SQL](https://img.shields.io/badge/sql-advanced-e38c00.svg)](https://en.wikipedia.org/wiki/SQL)
+
 > **Role Simulation**: Head of Product Analytics @ TaskFlow (B2B SaaS) \
 > **Objective**: Analyze MRR stagnation, identify Churn drivers, and optimize the Free-to-Paid funnel. \
 > **Tools**: Python, Docker, PostgreSQL, Power BI.
 
 [![Watch Project Presentation](https://img.youtube.com/vi/TU_ID_DE_VIDEO/maxresdefault.jpg)](https://www.youtube.com/watch?v=TU_ID_DE_VIDEO) \
 *👆 Click above to watch the 3-minute analysis and strategic findings.*
+
+---
+
+## 🛠️ Tech Stack
+
+* **Programming**: Python
+* **Database**: PostgreSQL
+* **Infrastructure**: Docker
+* **Data Visualization**: Power BI
+* **Data Engineering**: SQL (Advanced CTEs, Window Functions)
 
 ---
 
@@ -136,5 +154,7 @@ TaskFlow_Analytics/
 ```
 
 ## 👨‍💻 Author
-**Jill Palma Garro**
-> *"Unexplained churn is not just a statistic, it is a silent leak in your company's valuation."*
+
+**Name**: Jill Palma Garro  
+**GitHub**: [@jpalmagarro](https://github.com/jpalmagarro)  
+**LinkedIn**: [jpalmagarro](https://www.linkedin.com/in/jpalmagarro/)
